@@ -22,18 +22,6 @@ p {
     color: white;
 }
 
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 8px;
-    border-color: #4aaaa5;
-    overflow: hidden;
-    background-color: transparent;
-} 
 
 header {
     float: left;
@@ -46,19 +34,43 @@ header {
 
 #NamePlate {
     float: left;
+    padding: 15px;
 }
 
 #AboutPage {
-    float: left;
-    text-indent: 1400%;
+    float: right;
+    padding: 15px;
 }
 
 #PortfolioPage {
-    float: left;
-    text-indent: 1030%;
+    float: right;
+    padding: 15px;
 }
 
 #ContactPage {
-    float: left;
-    text-indent: 1200%;
+    float: right;
+    padding: 15px;
+}
+
+#FooterLine { 
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    border-style: inset;
+    border-width: 5px;
+    border-color: #4aaaa5;
+    overflow: hidden;
+    background-color: transparent;
+} 
+
+footer {
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0px;
+    background-color: #666666;
+    color: #777777;
 }
