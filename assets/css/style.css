@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    background-color: white;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.classItem {
+    background-color: orange;
+}
+
+#idItem {
+    background-color: green;
+    color: white;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 8px;
+    border-color: #4aaaa5;
+    overflow: hidden;
+    background-color: transparent;
+} 
+
+header {
+    float: left;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+#NamePlate {
+    float: left;
+}
+
+#AboutPage {
+    float: left;
+    text-indent: 1400%;
+}
+
+#PortfolioPage {
+    float: left;
+    text-indent: 1030%;
+}
+
+#ContactPage {
+    float: left;
+    text-indent: 1200%;
+}
