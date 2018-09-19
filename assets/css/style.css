@@ -4,16 +4,31 @@
     text-align: center;
   }
 
-h1{
+
+  body {
+    background-image: url("../images/bananas.png");
+ }
+  
+/**** Review some of this margin right and margin left stuff and see if you even need it ****/
+ #NamePlate h1{
     font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    float: left;
+    padding: 15px;
+    margin-left: 160px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border-bottom: 0px;
+    width: 160px;
+    background-color: teal;
 }
 
 p {
     background-color: white;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
-
-
 
 .classItem {
     background-color: orange;
@@ -30,78 +45,73 @@ p {
     clear: both;
   }
 
+#topbar {
+    background-color: white;
+}
+
 header {
     float: left;
     padding: 20px;
-    background-color: #4aaaa5;
+    width: 960px;
     color: white;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
 }
 
-#NamePlate {
-    float: left;
-    padding: 15px;
-    margin-left: 160px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-    border-bottom: 0px;
+.page {
+    width: 100%;
+    background-color: white;
 }
+
+/** ABOUT ME **/
 
 #AboutMeBox {
+    padding: 30px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/*********** NAVIGATION ***************/
+
+ul li {
     float: left;
-    padding: 20px;
-    margin-left: 80px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    background-color: tan;
-}
-
-.floatLeft {
-    float: left;
-}
-
-#AboutPage {
-    float: right;
-    padding: 15px;
-    font-family: Arial;
-}
-
-#PortfolioPage {
-    float: right;
     padding: 15px;
     font-family: Arial;
     font-weight: lighter;
 }
 
-#ContactPage {
-    float: right;
-    padding: 15px;
-    font-family: Arial;
-}
 
 #FooterLine { 
+    
     display: block;
     margin-top: 0em;
     margin-bottom: 0em;
     margin-left: 0em;
     margin-right: 0em;
     border-style: inset;
-    border-width: 5px;
+    border-width: 0px;
     border-color: #4aaaa5;
     overflow: hidden;
     background-color: transparent;
 } 
 
-footer {
-    padding: 10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    border: 0px;
+#footer {
     background-color: #666666;
-    color: #777777;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    height: 60px;
+    border-top: 10px: solid #4aaaa5;
+}
+
+.IndexContainer {
+    width: 960px;
+    align-content: center;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.hline {
+    width:100%; height:1px; background: #fff
 }
 

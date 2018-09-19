@@ -3,44 +3,37 @@
 
 <head>
     <meta charset="utf-8">
+    <!-- head -->
     <title>About</title>
+    <!-- CSS RESET GOES HERE -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 
 <body>
-    <br>
-    <br>
-
 
 <div>
-    <!-- Floating Name Plate at Top -->
-    <section id="NamePlate">
-        <header>
-            <h1>Case Griffiths</h1>
-        </header>
-    </section>
+    <header class="page">
+        <!-- Floating Name Plate at Top -->
+        <section id="NamePlate">
+                <h1>Case Griffiths</h1>
+        </section>
+        <section>
+        <!-- Site Navigator -->
+            <ul>
+                <li id="AboutPage"><h4><a style="text-decoration: none"; :rel="Click here" href="#Aboutpage">About</a></h4></li>
+                <li id="PortfolioPage"><h4><a style="text-decoration: none"; :rel="Click here" href="#Portfolio">Portfolio</a></h4></li>
+                <li id="ContactPage"><h4><a style="text-decoration: none"; :rel="Click here" href="#Contact">Contact</a></h4></li>
+            </ul>
+        </section>
+    </header>
 </div>
-    <section>
-    <!-- Site Navigator -->
-            <section id="AboutPage">
-                <h4><a style="text-decoration: none"; :rel="Click here" href="#Aboutpage">About</a></h4>
-            </section>
-        
-            <section id="PortfolioPage">
-                <h4><a style="text-decoration: none"; :rel="Click here" href="#Portfolio">Portfolio</a></h4>
-            </section>
 
-            <section id="ContactPage">
-                <h4><a style="text-decoration: none"; :rel="Click here" href="#Contact">Contact</a></h4>
-            </section>
-    </section>
-    <div>
-
-    </div>
 <div class="clearfix"> 
 </div>
-<div>
+
+<div class="IndexContainer">
     <section>
             <div id="AboutMeBox"><h1>About Me</h1>
                 <img class="floatLeft" src="assets/images/case.JPG" alt="Picture of Case Griffiths" width = 200px, height=150px>
@@ -48,7 +41,9 @@
             <br>
                 <!-- Biography Text -->
             <p> My name is Case Griffiths. I am originally from La Jolla California which is a small surfing town North West of San Diego. I moved to Berkeley on Scholarship to the University of California where I received my Bachelors in Digital Media, after which I moved to Portland, Oregon where I live now with my girlfriend Jeanelle and our beagle puppy Harley.</p>
+            <br>
             <p>I have been working in technology for my entire life. I started by building my first computer at age 9. It was a broken Windows PC that my mom said I could have if I could fix it. I tinkered with it for days and eventually surmised that it was the video card that was broken. I asked my mom for a new video card and it was my only Christmas present in 1996. It worked. That moment would mark the beginning of a life long passion for tech.</p>
+            <br>
             <p> Today, I have worked for some of the world's premier technology companies, such as Sony, Qualcomm, Apple, and Salesforce. I work on PCs, Macs, and Linux. I am a certified Apple repair tech, and now I work at marketing technology start ups in Downtown Portland, the most recent being my current employer, Opal Labs.</p>
             <p>In my free time I like to tinker with technology, fly drones, go camping, play music, and see shows. I have recently gotten into rock climbing, and now I am training to become a web developer.</p>
         <br>
@@ -56,13 +51,11 @@
     </section>
 </div>
 
-<section>
-    <div id="FooterLine">
-    </div>
-    <footer>
-        Copyright©
-    </footer>
-</section>
+<footer>
+    <hr id="FooterLine"><section id="footer">
+    Copyright©        
+    </section>
+</footer>
 
 </body>
 
