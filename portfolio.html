@@ -1,51 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS RESET GOES HERE -->
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 
+<section>
 
-<body>
-    <!-- Floating Name Plate at Top -->
-    <section>
-        <header>
-            <h1>Case Griffiths</h1>
+
+
+    <div>
+        <header class="page">
+            <div class="relative">
+                <!-- Floating Name Plate at Top -->
+                <section id="NamePlate">
+                    <h1>
+                        <br>
+                        Case Griffiths</h1>
+                </section>
+            </div>
+            <section>
+                <!-- Site Navigator -->
+                <ul>
+                    <li id="AboutPage">
+                        <h4><a style="text-decoration: none" ; :rel="Click here" href="#Aboutpage">About</a></h4>
+                    </li>
+                    <li id="PortfolioPage">
+                        <h4><a style="text-decoration: none" ; :rel="Click here" href="#Portfolio">Portfolio</a></h4>
+                    </li>
+                    <li id="ContactPage">
+                        <h4><a style="text-decoration: none" ; :rel="Click here" href="#Contact">Contact</a></h4>
+                    </li>
+                </ul>
+            </section>
         </header>
-        
-    <!-- Site Navigator -->
-        <header>
-            <h4><a style="text-decoration: none"; :rel="Click here" href="#Aboutpage">About</a></h4>
-            <h4><a style="text-decoration: none"; :rel="Click here" href="#Portfolio">Portfolio</a></h4>
-            <h4><a style="text-decoration: none"; :rel="Click here" href="#Contact">Contact</a></h4>
-        </header>
-    </section>
-<br>
-<br>
-    <section>
+    </div>
+
+
+    <br>
+    <br>
+    <section style="position: relative; top: 114px">
+        <div id="PortfolioBox">
             <header>
-            <h1>Portfolio</h1>
+                <h1 style="font-size: 32px; color: teal; text-align: left; text-indent: 125px">Portfolio</h1>
             </header>
             <br>
-            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width = 200px, height=150px>
-            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width = 200px, height=150px>
-            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width = 200px, height=150px><br>
-            <img src="assets/images/drone.jpg" alt="Picture of Case Griffiths" width = 200px, height=150px>
-            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width = 200px, height=150px>
-            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width = 200px, height=150px>
             <br>
-    </section>
-<br>
-<br>
-    <section>
-        <div id="FooterLine">
+            <hr style="width: 70%">
+            <br>
+            <!-- TESTING (start) -->
+            <!-- <`div class="p-div drone">
+                    <h4>Drone Pilot</h4>
+                </div>
+                 TESTING (end) -->
+            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width=200px, height=150px>
+            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width=200px, height=150px>
+            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width=200px, height=150px>
+            <br>
+            <img src="assets/images/drone.jpg" alt="Picture of Case Griffiths" width=200px, height=150px>
+            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width=200px, height=150px>
+            <img src="assets/images/200x200.png" alt="Picture of Case Griffiths" width=200px, height=150px>
         </div>
-        <footer>
-            Copyright©
-        </footer>
     </section>
-</body>
+    <br>
+    <br>
+    <br>
+    <footer style="position: fixed; width: 100%; bottom: 0px">
+        <hr id="FooterLine">
+        <section id="footer">
+            <div style="text-align: center; position: relative; top: 30px">
+                Copyright©
+            </div>
+        </section>
+    </footer>
+
+</html>

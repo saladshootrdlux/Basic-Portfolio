@@ -1,13 +1,11 @@
 
+/** HEADER **/
+
 * {
     box-sizing: border-box;
     text-align: center;
   }
 
-
-  body {
-    background-image: url("../images/bananas.png");
- }
   
 /**** Review some of this margin right and margin left stuff and see if you even need it ****/
  #NamePlate h1{
@@ -28,14 +26,6 @@ p {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.classItem {
-    background-color: orange;
-}
-
-#idItem {
-    background-color: green;
-    color: white;
-}
 
 .clearfix::after {
     content: "";
@@ -49,16 +39,17 @@ p {
 
 header {
     float: left;
-    padding: 20px;
+    padding: 0px;
     width: 960px;
     color: white;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
+
 }
 
 .page {
     width: 100%;
-    height: 120px;
+    height: 100px;
     background-color: white;
     position: relative;
 }
@@ -69,6 +60,39 @@ div.relative {
     
 }
 
+/** BODY **/
+
+body {
+    background-image: url("../images/bananas.png");
+ }
+
+
+/** PORTFOLIO **/
+
+#PortfolioBox {
+    padding: 50px;
+    background-color: white;
+    width: 960px;
+    top: 80px;
+    right: 30px;
+    margin: 0 auto;
+}
+
+.drone {
+    background-image: url('../images/drone.jpg');
+}
+
+/** CONTACT **/
+
+#ContactBox {
+    padding: 0px;
+    background-color:white;
+    margin: 0 auto;
+    width: 960px;
+    padding: 50px;
+}
+
+
 /** ABOUT ME **/
 
 #AboutMeBox {
@@ -76,9 +100,13 @@ div.relative {
     background-color:white;
     margin: 0 auto;
     width: 960px;
+    padding: 50px;
 }
 
-/*********** NAVIGATION ***************/
+
+
+
+/** NAVIGATION **/
 
 ul li {
     float: right;
@@ -87,8 +115,11 @@ ul li {
     font-weight: lighter;
     position: relative;
     right: 30px;
+    top: 20px;
 }
 
+
+/** FOOTER **/
 
 #FooterLine { 
     
@@ -98,10 +129,8 @@ ul li {
     margin-left: 0em;
     margin-right: 0em;
     border-style: inset;
-    border-width: 0px;
-    border-color: #4aaaa5;
-    overflow: hidden;
-    background-color: transparent;
+    border-width: 5px;
+    border: 5px solid teal;
 } 
 
 #footer {
@@ -110,7 +139,6 @@ ul li {
     text-align: center;
     font-size: 12px;
     height: 60px;
-    border-top: 10px: solid #4aaaa5;
 }
 
 
