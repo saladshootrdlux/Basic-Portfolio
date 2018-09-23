@@ -70,17 +70,35 @@ body {
 /** PORTFOLIO **/
 
 #PortfolioBox {
-    padding: 50px;
+    padding: 40px;
     background-color: white;
     width: 960px;
-    top: 80px;
+    top: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
     right: 30px;
     margin: 0 auto;
 }
 
-.drone {
-    background-image: url('../images/drone.jpg');
+.image-drone{
+    height:40%;
+    width:100%;
+    text-align:center;
+    padding-top:2px;
+    background-image:url(/assets/images/drone.jpg);
+    background-size:100% auto;
+    }
+
+
+.column {
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    right: 0px;
+    border: 0px;
+
 }
+
 
 /** CONTACT **/
 
@@ -145,4 +163,3 @@ ul li {
 .hline {
     width:100%; height:1px; background: #fff
 }
-
